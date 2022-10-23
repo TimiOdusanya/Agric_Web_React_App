@@ -1,0 +1,46 @@
+.logo {
+  height: 40px;
+  width: 60px;
+}
+
+.header-title{
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #003e51;
+}
+a:hover{
+  color:#ffd700;
+}
+
+.nav {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+   
+}
+@media (min-width: 800px) {
+ .nav-links{
+  margin-left: 250px;
+}
+
+.each-link{
+  margin-right: 30px;
+}
+
+}
+.socials{
+  font-size: 25px;
+  color: #6395a4;
+  margin-right: 10px;
+}
+
+.socials:hover{
+  color:#ffd700;
+ 
+}

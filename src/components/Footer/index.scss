@@ -1,0 +1,76 @@
+
+.footer{
+  display: flex;
+  margin: 200px 100px 20px 100px;
+}
+
+.footer__content{
+  margin-right: 60px;
+}
+
+.footer-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-email{
+
+  input{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+    background-color:rgb(216, 227, 224)
+
+  }
+
+  button{
+    background-color:#4b9a51;
+    border: 0px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    color: azure;
+    margin-top: 30px;
+  }
+}
+
+.footer__information{
+  list-style: none;
+  min-width: 150px;
+  margin-top: 40px;
+}
+
+.footer__social{
+  margin-top: 40px;
+
+  .socials{
+    margin-right: 20px;
+  }
+}
+
+.footer__cards{
+  min-width: 350px;
+ margin-top: 40px; 
+
+ .footer__card{
+  margin-right: 10px;
+ }
+}
+
+.footer__copyright{
+  color: #4e6871;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media(max-width: 800px){
+  .footer{
+    flex-direction: column;
+  }
+
+  .footer__cards{
+     min-width: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.heading, h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+@media(max-width: 800px){
+    .cards-lists{
+        margin-left: -40px;
+    }
+}
