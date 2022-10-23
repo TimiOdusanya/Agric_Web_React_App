@@ -1,3 +1,7 @@
+This app was created with react.js and SAAS
+It contains different pages where you can buy, sell, invest agricultural produce and consists of a home page
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
