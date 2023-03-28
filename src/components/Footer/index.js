@@ -1,5 +1,5 @@
-import logo from "../../images/agric-logo.png";
-import card1 from "../../images/card1.png"
+import Logo from "../../images/logo_3.png";
+import card1 from "../../images/card1.png";
 import card2 from "../../images/card2.png";
 import card3 from "../../images/card3.png";
 import card4 from "../../images/card4.png";
@@ -10,7 +10,7 @@ import {
   brands,
 } from "@fortawesome/fontawesome-svg-core/import.macro";
 
-import "./index.scss"
+import "./index.scss";
 
 export default function Footer() {
   return (
@@ -18,11 +18,13 @@ export default function Footer() {
       <div className="footer">
         <div>
           <div className="footer__content">
-            <a href="#">
-              <img src={logo} className="logo" /> Grow iT
+            <a href="/">
+              <span className="logo_text">Gr</span>
+              <img src={Logo} className="logo" alt="img_logo" />
+              <span className="logo_text">w iT</span>
             </a>
 
-            <h3 className="footer-title">
+            <h3 className="subscribe_text">
               Subscribe to our newsletter <br />
               to stay updated
             </h3>
@@ -83,7 +85,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p className="footer__copyright">&#169; Grow iT || All rights reserved</p>
+      <p className="footer__copyright">
+        &#169; Grow iT 2023 || All rights reserved
+      </p>
     </div>
   );
-};
+}

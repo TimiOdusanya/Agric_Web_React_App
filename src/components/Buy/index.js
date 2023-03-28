@@ -34,12 +34,22 @@ export default function Buy() {
               idx={15}
             />
           </h1>
-          <h2>
+          <h2 className="buy_header">
             Buy your fresh farm produce, animal and fruits at affordable prices
           </h2>
         </div>
-
-        <div className="cards-lists">{Item}</div>
+        <div>
+          <h2>Grain</h2>
+          <div className="cards-lists">{Item}</div>
+        </div>
+        <div>
+          <h2>Fruits</h2>
+          <div className="cards-lists">{Item}</div>
+        </div>
+        <div>
+          <h2>Oils</h2>
+          <div className="cards-lists">{Item}</div>
+        </div>
       </div>
       {/* <Loader type="pacman" /> */}
     </>

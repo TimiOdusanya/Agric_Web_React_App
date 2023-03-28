@@ -9,7 +9,9 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius:0 50%/100px 100px 0;
-   background-blend-mode: darken;
+  background-blend-mode: darken;
+  margin-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 @keyframes example {
@@ -53,7 +55,7 @@
     }
   }
 
-  h1 {
+  .heading {
     color: #fff;
     font-size: 53px;
     margin: 0;
@@ -61,7 +63,7 @@
     font-weight: 700;
   }
 
-  h2 {
+  .header_text {
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;

@@ -22,7 +22,7 @@ export default function About(){
       <div className="mydiv">
         <div className="container home-page">
           <div className="text-zone">
-            <h1>
+            <h1 className="heading">
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={nameArray}
@@ -35,7 +35,7 @@ export default function About(){
                 idx={22}
               />
             </h1>
-            <h2>
+            <h2 className="header_text">
               A digital platform for agribusiness We bridge the gap between
               agric investors and farmers. Revoluntionizing agriculture in
               Nigeria.

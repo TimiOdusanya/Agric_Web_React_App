@@ -4,13 +4,28 @@
   margin: 200px 100px 20px 100px;
 }
 
+.logo_text{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "U8,sans-serif";
+}
+
 .footer__content{
   margin-right: 60px;
 }
 
+.subscribe_text{
+  font-size: 20px;
+  font-weight: 700;
+  color: #003e51;
+  font-family: monospace;
+}
 .footer-title{
   font-size: 20px;
-  font-weight: bold;
+  margin-left: 30px;
+  font-weight: 700;
+  color: #003e51;
+  font-family: monospace;
 }
 
 .footer-email{
@@ -21,23 +36,29 @@
     border-radius: 5px;
     border-style: none;
     position: relative;
-    background-color:rgb(216, 227, 224)
+    background-color:rgb(216, 227, 224);
 
   }
 
   button{
-    background-color:#4b9a51;
+    background-color:#f4cb1e;
     border: 0px;
     border-radius: 5px;
     width: 100px;
-    height: 40px;
+    height: 50px;
     color: azure;
     margin-top: 30px;
+  }
+
+  button:hover{
+    background-color:#4b9a51
   }
 }
 
 .footer__information{
   list-style: none;
+  font-size: 16px;
+  color:#003e51;
   min-width: 150px;
   margin-top: 40px;
 }
@@ -63,11 +84,15 @@
   color: #4e6871;
   text-align: center;
   font-size: 12px;
+  margin-bottom: 0px;
 }
 
 @media(max-width: 800px){
   .footer{
-    flex-direction: column;
+    // text-align: center;
+    // flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .footer__cards{

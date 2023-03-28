@@ -1,16 +1,20 @@
 .logo {
-  height: 40px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: -20px;
 }
 
 .header-title{
   font-weight: 700;
   margin-top: 30px;
+  font-size: 40px;
+  font-family: 'U8,sans-serif';
 }
 
 a {
   text-decoration: none;
-  color: #003e51;
+  color: #40513B;
 }
 a:hover{
   color:#ffd700;
@@ -18,11 +22,9 @@ a:hover{
 
 .nav {
   width: 100%;
-  background-color: #fff;
-  margin-bottom: 20px;
-  margin-top: -10px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-   
+  // background-color: #CCFB5D ;
+  // margin-top: -10px;
+  // box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 800px) {
  .nav-links{
@@ -30,7 +32,11 @@ a:hover{
 }
 
 .each-link{
+  font-size: 18px;
+  font-weight: 500;
   margin-right: 30px;
+  // font-family:cursive;
+  font-family: monospace;
 }
 
 }
@@ -43,4 +49,21 @@ a:hover{
 .socials:hover{
   color:#ffd700;
  
+}
+
+.appointment_button{
+  background-color: #003e51;
+  color: #fff;
+  border-radius: 12px;
+  height: 60px;
+  width: 220px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'U8';
+  padding: 0;
+  border: none;
+}
+
+.appointment_button:hover{
+  color: #ffd700;
 }

@@ -5,7 +5,7 @@ export default [
     title: "Sell",
     description: "sell your items",
     price: 136,
-    coverImg: "buy.gif",
+    coverImg: "apples.jfif",
     location: "Online",
   },
   {
@@ -14,15 +14,15 @@ export default [
     description:
       "Buy your fresh farm produce. Animal Produce, Plant Produce at affordable prices",
     price: 136,
-    coverImg: "buy.gif",
+    coverImg: "banana.jfif",
     location: "Online",
   },
   {
     id: 3,
-    title: "Invest",
+    title: "basmati",
     description: "sell your items",
     price: 136,
-    coverImg: "sell.gif",
+    coverImg: "rice.jpg",
     location: "Online",
   },
   {
@@ -30,7 +30,7 @@ export default [
     title: "Donate",
     description: "Donate to our course ",
     price: 136,
-    coverImg: "sell.gif",
+    coverImg: "corn.jpg",
     location: "Online",
   },
 ];

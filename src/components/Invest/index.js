@@ -27,7 +27,7 @@ export default function Invest() {
           />
         </h1>
 
-        <h2>You have made the right decision investing with GrowiT</h2>
+        <h2 className="invest_header">You have made the right decision investing with GrowiT</h2>
       </div>
       <div className="card-div">
         <Card style={{ width: "18rem" }} className="each-card">
@@ -67,7 +67,7 @@ export default function Invest() {
       </div>
 
       <div>
-        <h3>Invest Now!</h3>
+        <h3 className="invest_now">Invest Now!</h3>
       </div>
     </div>
   );

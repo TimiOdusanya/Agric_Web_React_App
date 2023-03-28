@@ -1,6 +1,9 @@
 import "./index.scss";
 import { useState, useEffect } from "react";
 import AnimatedLetters from "../AnimatedLetters";
+import Image1 from '../../images/carousel.jpg'
+import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+
 
 export default function Invest() {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -17,6 +20,39 @@ export default function Invest() {
 
   return (
     <div>
+      <div>
+        <MDBCarousel showControls showIndicators>
+          <MDBCarouselItem
+            className="w-100 d-block"
+            itemId={1}
+            src="https://mdbootstrap.com/img/new/slides/041.jpg"
+            alt="..."
+          >
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </MDBCarouselItem>
+          <MDBCarouselItem
+            className="w-100 d-block"
+            itemId={2}
+            src="https://mdbootstrap.com/img/new/slides/042.jpg"
+            alt="..."
+          >
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </MDBCarouselItem>
+          <MDBCarouselItem
+            className="w-100 d-block"
+            itemId={3}
+            src="https://mdbootstrap.com/img/new/slides/043.jpg"
+            alt="..."
+          >
+            <h5>Third slide label</h5>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </MDBCarouselItem>
+        </MDBCarousel>
+      </div>
       <div className="header-text">
         <h1 className="heading">
           <AnimatedLetters
@@ -26,7 +62,7 @@ export default function Invest() {
           />
         </h1>
 
-        <h2>
+        <h2 className="sell_content">
           You can sell your farm produce with GrowiT, just fill the form below
           and an agent will respond to you shortly
         </h2>
@@ -56,7 +92,7 @@ export default function Invest() {
                 className="input-text"
               />
             </li>
-            
+
             <li>
               <input
                 placeholder="Mobile No"
@@ -77,7 +113,7 @@ export default function Invest() {
             </li>
             <li>
               <select name="languages" id="lang">
-                <option >Select City</option>
+                <option>Select City</option>
                 <option>Lagos</option>
                 <option>New Delhi</option>
                 <option>New York</option>

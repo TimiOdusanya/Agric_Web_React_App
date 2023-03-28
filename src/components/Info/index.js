@@ -1,4 +1,4 @@
-import info from "../../images/info.png"
+import info from "../../images/nature.jpg"
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -27,7 +27,7 @@ export default function Info(){
             <img src={info} alt="info" className="info-image" />
           </div>
           <div className="info-text">
-            <h5>
+            <h5 className="info_header">
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={"Why Grow iT?".split("")}
@@ -35,15 +35,16 @@ export default function Info(){
               />
             </h5>
 
-            <h1>
+            <h1 className="info_header">
               Delivering Results through <span>Execution</span>
             </h1>
-            <p>
+            <p className="info_content">
               Since 1997, Grow iT has improved the business results of
               agricultural companies through execution excellence. Clients in
               all segments of agriculture trust Grow iT with business-critical
               initiatives, where execution matters most.
             </p>
+         
           </div>
         </div>
         <div className="learn-more">

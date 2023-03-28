@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
 import "./index.scss";
-import Logo from "../../images/agric-logo.png";
+import Logo from "../../images/logo_3.png";
 import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -17,7 +17,7 @@ export default function Header() {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="light"
+        bg="#CCFB5D"
         variant="light"
         className="nav"
         sticky="top"
@@ -25,13 +25,14 @@ export default function Header() {
         <Container>
           <Navbar.Brand>
             <Link to="/">
+              <span className="header-title">Gr</span>
               <img src={Logo} alt="logo" className="logo" />{" "}
-              <span className="header-title">Grow iT</span>
+              <span className="header-title">w iT</span>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto nav-links">
+            <Nav className="ms-auto nav-links">
               <Nav.Link>
                 <Link to="/" className="each-link">
                   Home
@@ -59,7 +60,14 @@ export default function Header() {
               </Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="https://twitter.com">
+              <Nav.Link>
+                <Link to="/appointment" className="each-link">
+                  <button className="appointment_button">
+                    Book an Appointment
+                  </button>
+                </Link>
+              </Nav.Link>
+              {/* <Nav.Link href="https://twitter.com">
                 <FontAwesomeIcon
                   icon={brands("twitter")}
                   bounce
@@ -79,7 +87,7 @@ export default function Header() {
                   bounce
                   className="socials"
                 />
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

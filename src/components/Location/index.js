@@ -32,7 +32,7 @@ export default function Buy() {
             idx={15}
           />
         </h1>
-        <h2>
+        <h2 className="header_text">
           You can find a Grow iT super store or farmers market at one of these locations
         </h2>
       </div>
