@@ -87,13 +87,19 @@
   margin-bottom: 0px;
 }
 
-@media(max-width: 800px){
+@media(max-width: 1243px){
   .footer{
-    // text-align: center;
-    // flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
   }
+
+  .footer__content{
+    margin-top: 70px;
+    width: auto;
+  }
+
 
   .footer__cards{
      min-width: 20px;

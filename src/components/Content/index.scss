@@ -218,7 +218,12 @@
     margin-bottom: 200px;
   }
 
-  .product_slider{
+
+}
+
+
+@media (max-width: 1242px){
+    .product_slider{
     display: none;
   }
 }

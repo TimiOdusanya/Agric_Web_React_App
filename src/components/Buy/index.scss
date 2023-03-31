@@ -29,6 +29,18 @@
   // flex: 1 1 160px;
 }
 
+.section_header{
+    margin: 200px 0 70px 200px;
+    text-align: left;
+    font-weight: 600;
+    color: #3a3a3a;
+    font-family: "Muli", sans-serif;
+    // color: #003e51;
+    font-size: 35px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    animation: fadeIn 4s 4s backwards;
+}
 .card-item:hover{
   transform: scale(1.1);
 }
@@ -82,4 +94,30 @@
 .cart_img{
   height: 20px;
   margin-left: 5px;
+}
+
+.veg_category{
+  margin: 0 20px 0 20px;
+}
+.veg_category > h3{
+  width: 10vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #003e51;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10px;
+  // text-align: center;
+}
+
+.veg_category:hover{
+  transform: scale(1.2)
+}
+
+.category_cursor{
+  display: flex;
+  // justify-content: space-evenly;
+  justify-content: center;
+  animation: fadeIn 4s 4s backwards;
+  
 }

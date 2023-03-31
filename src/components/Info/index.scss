@@ -12,13 +12,20 @@
   }
 
   .info-text {
-    margin-left: 40px;
+    margin-top: 40px;
+    margin-left: 30%;
   }
 
   .info-image{
     margin-top: 50px;
     height: 250px !important;
     width: 250px !important; 
+  }
+}
+
+@media (min-width: 800px){
+  .info-text{
+     margin: 100px 0 0 100px;
   }
 }
 
@@ -63,7 +70,7 @@
 
 .info-text {
   max-width: 35%;
-  margin: 100px 0 0 100px;
+  // margin: 100px 0 0 100px;
 
   h1,
   h5 {

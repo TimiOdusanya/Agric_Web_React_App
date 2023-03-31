@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import arrow from "../../images/arrow_icon.png";
+
 export default function Invest() {
   const [letterClass, setLetterClass] = useState("text-animate");
 
@@ -27,7 +29,9 @@ export default function Invest() {
           />
         </h1>
 
-        <h2 className="invest_header">You have made the right decision investing with GrowiT</h2>
+        <h2 className="invest_header">
+          You have made the right decision investing with GrowiT
+        </h2>
       </div>
       <div className="card-div">
         <Card style={{ width: "18rem" }} className="each-card">
@@ -38,7 +42,10 @@ export default function Invest() {
             <Card.Text className="card-text">
               We have several varieties investment plans you can choose from.
             </Card.Text>
-            <Card.Link href="#">Learn More</Card.Link>
+            <Card.Link href="#">
+              Learn More
+              <img src={arrow} alt="arrow" className="arrow_icon" />
+            </Card.Link>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }} className="each-card">
@@ -48,9 +55,13 @@ export default function Invest() {
             <Button variant="success">02</Button>
             <br />
             <Card.Text className="card-text">
-              Once you invest, we plant, we harvest and sell the produce.
+              Once you invest, we plant, we harvest and sell the produce for
+              your benefits.
             </Card.Text>
-            <Card.Link href="#">Learn More</Card.Link>
+            <Card.Link href="#">
+              Learn More
+              <img src={arrow} alt="arrow" className="arrow_icon" />
+            </Card.Link>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem" }} className="each-card">
@@ -61,13 +72,18 @@ export default function Invest() {
             <Card.Text className="card-text">
               You receive your capital and ROI after sales has been made.
             </Card.Text>
-            <Card.Link href="#">Learn More</Card.Link>
+            <Card.Link href="#">
+              Learn More
+              <img src={arrow} alt="arrow" className="arrow_icon" />
+            </Card.Link>
           </Card.Body>
         </Card>
       </div>
 
       <div>
-        <h3 className="invest_now">Invest Now!</h3>
+        <h3 className="invest_now">
+          Invest Now! <img src={arrow} alt="arrow" className="arrow_icon" />
+        </h3>
       </div>
     </div>
   );

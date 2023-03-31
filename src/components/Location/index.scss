@@ -8,3 +8,24 @@
         margin-left: -40px;
     }
 }
+
+.location_heading{
+    font-family: "urbane", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 100px 0 20px 0;
+    color: #003e51;
+     text-align: center;
+}
+
+.location_text{
+    color: #8d8d8d;
+    margin: 20px 0 100px 0;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 4s 4s backwards;
+    text-align: center;
+}

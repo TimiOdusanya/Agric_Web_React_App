@@ -41,20 +41,31 @@
 
   @media (max-width: 800px) {
     .text-zone {
-      text-align: center;
-      width: 65.5%;
-      top:  200%;
+      // text-align: center;
+      // width: 65.5%;
+      // top:  200%;
+      display: none;
     }
   }
 
   @media (max-width: 1200) {
     .text-zone {
-      text-align: center;
-      width: 65.5%;
-      top:  auto;
+      // text-align: center;
+      // width: 65.5%;
+      // top:  auto;
+      display: none;
     }
   }
 
+  @media only screen and (min-width: 360px) and (max-width: 768px) {
+	// do something in this width range.
+}
+
+  // @media (max-width: 800px){
+  //   .text-zone{
+  //     margin-top: -1150px;
+  //   }
+  // }
   .heading {
     color: #fff;
     font-size: 53px;

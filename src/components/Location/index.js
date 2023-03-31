@@ -25,14 +25,14 @@ export default function Buy() {
     <div>
       <div>
         
-        <h1 className="heading">
+        <h1 className="location_heading">
           <AnimatedLetters
             letterClass={letterClass}
             strArray={"Looking For Where to Buy?".split("")}
             idx={15}
           />
         </h1>
-        <h2 className="header_text">
+        <h2 className="location_text">
           You can find a Grow iT super store or farmers market at one of these locations
         </h2>
       </div>
